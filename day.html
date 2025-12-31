@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Training Day | Moonshine Capital</title>
+    <link rel="stylesheet" href="css/tokens.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/utilities.css">
+</head>
+<body class="theme-dark">
+
+    <nav class="navbar">
+        <div class="container nav-flex">
+            <a href="index.html" class="back-link">← Back to Dashboard</a>
+            <div class="nav-links">
+                <a href="resources.html">Resources</a>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container day-layout">
+        <div id="day-content-loader">Loading Protocol...</div>
+        
+        <div id="day-container" class="hidden">
+            <header class="day-header">
+                <span id="day-badge" class="badge">Day X</span>
+                <h1 id="day-title">Loading...</h1>
+                <p id="day-summary" class="lead-text"></p>
+            </header>
+
+            <div class="split-view">
+                <section class="content-col">
+                    <div class="card video-card">
+                        <div class="video-placeholder">
+                            <span>Video Briefing Placeholder</span>
+                        </div>
+                    </div>
+                    <div class="card text-content">
+                        <h3>Briefing</h3>
+                        <div id="day-body"></div>
+                    </div>
+                </section>
+
+                <aside class="sidebar-col">
+                    <div class="card task-card">
+                        <h3>Daily Operations</h3>
+                        <ul id="task-list" class="checklist"></ul>
+                        <button id="complete-btn" class="btn btn-primary full-width">Mark Day Complete</button>
+                    </div>
+                </aside>
+            </div>
+        </div>
+    </main>
+
+    <script src="js/store.js"></script>
+    <script src="js/router.js"></script>
+    <script src="js/render.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
