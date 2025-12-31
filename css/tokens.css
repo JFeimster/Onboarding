@@ -1,0 +1,24 @@
+:root {
+    /* Palette */
+    --bg-body: #050505;
+    --bg-card: #0e0e0e;
+    --bg-card-hover: #141414;
+    --text-main: #e5e5e5;
+    --text-muted: #888888;
+    --border: #262626;
+    --accent: #d4af37;
+    --accent-glow: rgba(212, 175, 55, 0.15);
+    
+    /* Type */
+    --font-head: 'Georgia', 'Times New Roman', serif;
+    --font-body: 'Inter', system-ui, -apple-system, sans-serif;
+    
+    /* Space */
+    --space-s: 0.5rem;
+    --space-m: 1rem;
+    --space-l: 2rem;
+    
+    /* UI */
+    --radius: 2px;
+    --trans: 0.2s ease;
+}
