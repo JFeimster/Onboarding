@@ -1,0 +1,112 @@
+/* Bento Grid */
+.bento-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1px;
+    background: var(--border); /* Creates grid lines */
+    border: 1px solid var(--border);
+    margin-bottom: var(--space-l);
+}
+
+.bento-item {
+    background: var(--bg-card);
+    padding: var(--space-m);
+    transition: background var(--trans);
+    position: relative;
+    height: 140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.bento-item:hover {
+    background: var(--bg-card-hover);
+    box-shadow: inset 0 0 20px var(--accent-glow);
+}
+
+.bento-item.completed::after {
+    content: "✓";
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: var(--accent);
+}
+
+/* Typography components */
+.day-number {
+    font-size: 0.8rem;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.day-title {
+    font-family: var(--font-head);
+    font-size: 1.1rem;
+    margin: 0;
+}
+
+/* Buttons */
+.btn {
+    display: inline-block;
+    padding: 0.8rem 1.5rem;
+    background: transparent;
+    border: 1px solid var(--accent);
+    color: var(--accent);
+    font-family: var(--font-body);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 0.8rem;
+    cursor: pointer;
+    transition: var(--trans);
+}
+
+.btn-primary {
+    background: var(--accent);
+    color: #000;
+}
+
+.btn-primary:hover {
+    background: #eebb44;
+}
+
+/* Day Layout */
+.split-view {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: var(--space-l);
+}
+
+.card {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    padding: var(--space-l);
+    margin-bottom: var(--space-m);
+}
+
+.video-placeholder {
+    aspect-ratio: 16/9;
+    background: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid var(--border);
+    color: var(--text-muted);
+}
+
+.checklist {
+    list-style: none;
+    padding: 0;
+}
+
+.checklist li {
+    padding: var(--space-s) 0;
+    border-bottom: 1px solid var(--border);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+@media (max-width: 768px) {
+    .split-view { grid-template-columns: 1fr; }
+}
