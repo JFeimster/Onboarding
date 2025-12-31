@@ -2,46 +2,271 @@
   {
     "id": 1,
     "week": 1,
-    "title": "Orientation & Setup",
+    "title": "Agency Infrastructure",
     "duration": "45 mins",
-    "summary": "Setting up your digital office and understanding the Moonshine product suite.",
-    "content": "Welcome to Moonshine Capital. Today is about infrastructure. You cannot build a skyscraper on a swamp. We will set up your dedicated email, CRM access, and review the compliance handbook.",
-    "tasks": ["Sign Partner Agreement", "Setup Professional Email", "Join Discord Community", "Watch 'The Moonshine Way'"]
+    "summary": "System setup and compliance review.",
+    "content": "Welcome to Moonshine Capital. We are building a financial institution, not a hobby. Today is about ensuring your digital infrastructure is secure and compliant. We will set up your dedicated email, CRM access, and review the ISO handbook.",
+    "tasks": ["Sign Partner Agreement", "Configure Official Email Signature", "Login to Partner Portal", "Review 'Lending Compliance' PDF"]
   },
   {
     "id": 2,
     "week": 1,
-    "title": "Product Knowledge: Term Loans",
+    "title": "Core Products: MCA & Term Loans",
+    "duration": "60 mins",
+    "summary": "Mastering the mechanics of alternative lending.",
+    "content": "You cannot sell what you do not understand. Today we dissect the core instruments: The Term Loan (stability), The Line of Credit (flexibility), and the Merchant Cash Advance (speed). You must know the buy rates and qualifications for each.",
+    "tasks": ["Review Product Sheet", "Memorize 'The 3 Qualifiers' for LOCs", "Pass Product Knowledge Quiz 1"]
+  },
+  {
+    "id": 3,
+    "week": 1,
+    "title": "Underwriting Logic",
+    "duration": "45 mins",
+    "summary": "How to think like a lender to minimize declines.",
+    "content": "Amateurs send every file; professionals filter. Today you learn the '5 Cs of Credit' and how to spot a decline before you even request a bank statement. We will review how to read a business bank statement for negative days and NSFs.",
+    "tasks": ["Analyze Sample Bank Statement A", "Analyze Sample Bank Statement B", "Identify 'Red Flag' Industries"]
+  },
+  {
+    "id": 4,
+    "week": 1,
+    "title": "The Ideal Client Profile (ICP)",
     "duration": "30 mins",
-    "summary": "Deep dive into our bread-and-butter product.",
-    "content": "Term loans are the foundation of business funding. Learn the qualifications, interest rate structures, and ideal borrower profile.",
-    "tasks": ["Read Term Sheet PDF", "Pass Quiz 1 (Self-Assessment)", "Mock Pitch: Record yourself"]
+    "summary": "Defining target industries and revenue floors.",
+    "content": "Time is your only inventory. Do not waste it on startups. Today we define the Avatar: Revenue $25k/mo+, 2+ years in business, Construction/Medical/Logistics sectors. We focus on high-cash-flow entities.",
+    "tasks": ["Write down your Top 3 Target Niches", "Create a 'Do Not Call' list based on restricted industries"]
+  },
+  {
+    "id": 5,
+    "week": 1,
+    "title": "The Tech Stack",
+    "duration": "60 mins",
+    "summary": "CRM configuration and pipeline management.",
+    "content": "Your CRM is your bank account. We are setting up your pipeline stages: Lead, Docs In, Submitted, Approved, Contracts Out, Funded. We will configure automations so you focus on talking, not data entry.",
+    "tasks": ["Import 'Sample Leads' CSV", "Customize CRM Columns", "Test VOIP Dialer Connection"]
+  },
+  {
+    "id": 6,
+    "week": 1,
+    "title": "Disclosure & Ethics",
+    "duration": "30 mins",
+    "summary": "Legal frameworks and state-specific disclosures.",
+    "content": "Speed is our weapon, but integrity is our shield. We review truth-in-lending concepts, APR vs Factor Rate calculations, and commercial financing disclosure laws (like CA SB 1235).",
+    "tasks": ["Read 'Code of Conduct' PDF", "Sign Compliance Acknowledgment", "Review Disclosure Calculator"]
+  },
+  {
+    "id": 7,
+    "week": 1,
+    "title": "Week 1 Review: The Simulation",
+    "duration": "90 mins",
+    "summary": "Full workflow dry-run.",
+    "content": "The theory ends now. Today you will run a full simulation: Receiving a lead, qualifying them, gathering docs, and uploading to the Portal. If you can't do it in the sim, you can't do it in the market.",
+    "tasks": ["Complete 'Mock Submission' in Portal", "Review Week 1 Notes", "Plan Week 2 Outreach Schedule"]
   },
   {
     "id": 8,
     "week": 2,
-    "title": "Lead Generation 101",
-    "duration": "1 hr",
-    "summary": "Identify your first 100 prospects.",
-    "content": "We don't wait for business; we hunt it. Today you will build your 'Top 100' list using the LinkedIn scraper method.",
-    "tasks": ["Setup LinkedIn Sales Nav", "Build 'Top 100' List", "Draft 3 Cold Outreach Emails"]
+    "title": "Sourcing: Building the List",
+    "duration": "60 mins",
+    "summary": "Generating your first 100 prospects.",
+    "content": "Phase 2 is Prospecting. Today you build your 'Top 100' list. We look for local businesses with high capital intensity: HVAC, Trucking fleets, Manufacturing. You will use Google Maps and LinkedIn Sales Nav.",
+    "tasks": ["Scrape 50 leads from Google Maps", "Find 50 leads via LinkedIn", "Populate 'Top 100' Spreadsheet"]
+  },
+  {
+    "id": 9,
+    "week": 2,
+    "title": "Cold Outreach Strategy",
+    "duration": "45 mins",
+    "summary": "The opener, the hook, and the pitch.",
+    "content": "Nobody wakes up wanting a loan; they want to solve a cash flow problem. We will review the 'Gap Script': Identifying the gap between where they are and where they want to be.",
+    "tasks": ["Read 'Cold Call Script V3' aloud", "Record opening pitch", "Critique recording for tone"]
+  },
+  {
+    "id": 10,
+    "week": 2,
+    "title": "Email Drip Campaigns",
+    "duration": "45 mins",
+    "summary": "Automated nurturing sequences.",
+    "content": "The phone is for hunting; email is for farming. Today we load your email sequences. You'll learn the difference between 'Spam' and 'Value-Add Follow-up' that gets a response.",
+    "tasks": ["Load 'Intro Sequence' into CRM", "Write 1 custom subject line test", "Verify Domain Health (DKIM/SPF)"]
+  },
+  {
+    "id": 11,
+    "week": 2,
+    "title": "Gatekeepers & Objections",
+    "duration": "40 mins",
+    "summary": "Bypassing the front desk.",
+    "content": "The receptionist is trained to block you. You must be trained to bypass them. We use the 'Audit Approach' and the 'Partner Referral' angle to get to the Decision Maker (DM).",
+    "tasks": ["Roleplay 'Gatekeeper Bypass'", "Review 'Objection Handling' PDF", "Practice rebuttal for 'We are good on capital'"]
+  },
+  {
+    "id": 12,
+    "week": 2,
+    "title": "Social Authority",
+    "duration": "60 mins",
+    "summary": "LinkedIn optimization for finance professionals.",
+    "content": "People buy from experts. Today you optimize your LinkedIn profile to look like a Senior Funding Advisor. We will post your first 'Market Update' regarding interest rates.",
+    "tasks": ["Update LinkedIn Headline", "Connect with 20 Business Owners", "Post 'State of Lending' Article"]
+  },
+  {
+    "id": 13,
+    "week": 2,
+    "title": "Network Activation",
+    "duration": "30 mins",
+    "summary": "Leveraging existing contacts.",
+    "content": "Your phone already has money in it. Today we draft a professional message to your existing network asking for introductions to business owners in construction or logistics.",
+    "tasks": ["Send 'Introduction' text to 10 contacts", "Post launch announcement on socials"]
+  },
+  {
+    "id": 14,
+    "week": 2,
+    "title": "Week 2 Review: Live Fire",
+    "duration": "2 hours",
+    "summary": "Live dialing session.",
+    "content": "No more practice. Today you make 50 dials from your list. The goal is data collection: Get 3 people to say 'Send me an email' or 'Call me back'.",
+    "tasks": ["Make 50 Dials", "Log all outcomes in CRM", "Identify 3 follow-ups for Monday"]
   },
   {
     "id": 15,
     "week": 3,
-    "title": "The Art of the Close",
+    "title": "The Intake Process",
     "duration": "45 mins",
-    "summary": "Turning a 'Maybe' into a 'Funded'.",
-    "content": "Objection handling is where the money is made. We will cover the 4 most common objections: Rate, Term, Fees, and Timing.",
-    "tasks": ["Review Objection Script", "Roleplay with Peer", "Send 10 Follow-ups"]
+    "summary": "Collecting the Application and Statements.",
+    "content": "Phase 3 is The Deal Cycle. The biggest drop-off point is document collection. We learn how to use urgency and scarcity to get the docs in under 2 hours.",
+    "tasks": ["Download 'One-Page App'", "Practice 'Document Request' email flow", "Setup Secure Upload Link"]
+  },
+  {
+    "id": 16,
+    "week": 3,
+    "title": "Submission & Stips",
+    "duration": "30 mins",
+    "summary": "Packaging the file for Underwriting.",
+    "content": "Underwriters are busy. A messy file gets declined; a clean file gets funded. We cover naming conventions, PDF merging, and highlighting the 'Use of Funds' to make the story clear.",
+    "tasks": ["Watch 'Submission Standards' Video", "Learn to merge PDFs", "Checklist: The 4 Critical Docs"]
+  },
+  {
+    "id": 17,
+    "week": 3,
+    "title": "Reading the Offer",
+    "duration": "45 mins",
+    "summary": "Factor Rates, Terms, and Positions.",
+    "content": "You received an approval. Now you must explain it. We break down the difference between APR and Factor Rate, daily vs weekly payments, and origination fees.",
+    "tasks": ["Analyze 'Sample Approval' Term Sheet", "Calculate total payback amount", "Prepare 'Offer Presentation' email"]
+  },
+  {
+    "id": 18,
+    "week": 3,
+    "title": "Closing Mechanics",
+    "duration": "60 mins",
+    "summary": "Reviewing contracts and funding calls.",
+    "content": "This is where the money is made. We cover the 'Closing Call': walking the merchant through the contract, explaining the confession of judgment (if applicable), and scheduling the funding call.",
+    "tasks": ["Review 'Closing Script'", "Read sample 'Merchant Agreement'", "Roleplay the 'Rate Objection'"]
+  },
+  {
+    "id": 19,
+    "week": 3,
+    "title": "Handling Declines",
+    "duration": "30 mins",
+    "summary": "Pivoting when the bank says no.",
+    "content": "A 'No' is often just a 'Not this product'. We learn how to pivot a declined Term Loan into a Revenue Advance or Equipment Finance deal without losing the client.",
+    "tasks": ["Review 'Decline Reasons' Cheat Sheet", "Draft 'Pivot Email' template"]
+  },
+  {
+    "id": 20,
+    "week": 3,
+    "title": "Post-Funding Service",
+    "duration": "30 mins",
+    "summary": " renewals and relationship management.",
+    "content": "The first deal is for trust; the second deal is for profit. We set up the renewal calendar. A happy client renews at 50% paid down.",
+    "tasks": ["Schedule 'Funding Congratulation' call", "Set CRM task for 45-day check-in"]
+  },
+  {
+    "id": 21,
+    "week": 3,
+    "title": "Week 3 Review: Pipeline Scrub",
+    "duration": "60 mins",
+    "summary": "Cleaning up the board.",
+    "content": "Review all active deals. Identify where files are stuck. Is it missing bank statements? Is the merchant ghosting? We apply the 'Break-Up' script to stallers.",
+    "tasks": ["Audit all Open Deals", "Send 5 'Break-Up' texts", "Forecast End-of-Month numbers"]
   },
   {
     "id": 22,
     "week": 4,
-    "title": "Referral Partnerships",
-    "duration": "30 mins",
-    "summary": "Leveraging CPAs and Attorneys.",
-    "content": "Stop hunting one deal at a time. Partner with a CPA and get 10 deals a month.",
+    "title": "Partnership Channels (CPAs)",
+    "duration": "45 mins",
+    "summary": "Building a referral network.",
+    "content": "Phase 4 is Scaling. Stop hunting one deal at a time. Partner with a CPA and get 10 deals a month. We review the value proposition for accounting partners.",
     "tasks": ["Identify 5 Local CPAs", "Customize 'Partner Pitch' Deck", "Schedule 1 Lunch Meeting"]
+  },
+  {
+    "id": 23,
+    "week": 4,
+    "title": "Equipment Finance & SBA",
+    "duration": "60 mins",
+    "summary": "Expanding your product suite.",
+    "content": "Now that you mastered the basics, we introduce longer-term products. SBA 7(a) and Equipment Leasing. These take longer but pay massive commissions.",
+    "tasks": ["Read SBA 7(a) Overview", "Review Equipment Leasing tiers", "Identify 3 clients for Equipment upsell"]
+  },
+  {
+    "id": 24,
+    "week": 4,
+    "title": "Vendor Programs",
+    "duration": "45 mins",
+    "summary": "Partnering with equipment sellers.",
+    "content": "Work with people who sell yellow iron, trucks, or medical devices. You become their in-house finance department.",
+    "tasks": ["Find 3 Local Equipment Dealers", "Draft 'Vendor Partnership' letter"]
+  },
+  {
+    "id": 25,
+    "week": 4,
+    "title": "Time Management for Producers",
+    "duration": "30 mins",
+    "summary": "Structuring the Million Dollar Schedule.",
+    "content": "Green Time (Selling) vs Red Time (Admin). We restructure your calendar to ensure you are on the phone from 9am-11am and 2pm-4pm every day.",
+    "tasks": ["Block Calendar for 'Power Hours'", "Delegate or automate 1 admin task"]
+  },
+  {
+    "id": 26,
+    "week": 4,
+    "title": "Advanced Negotiation",
+    "duration": "60 mins",
+    "summary": "Squeezing points and saving deals.",
+    "content": "Advanced tactics for high-revenue borrowers who shop around. How to match offers, sell on 'Net Cost' vs 'APR', and win the deal without dropping your commission.",
+    "tasks": ["Watch 'Negotiation Masterclass'", "Practice 'Price Match' script"]
+  },
+  {
+    "id": 27,
+    "week": 4,
+    "title": "Building a Sub-Team",
+    "duration": "30 mins",
+    "summary": "From Agent to Agency Owner.",
+    "content": "The path to 7 figures involves leverage. We discuss the requirements for bringing on junior openers to feed your calendar.",
+    "tasks": ["Review 'Junior Agent' comp structure", "Draft 'Hiring Ad' for openers"]
+  },
+  {
+    "id": 28,
+    "week": 4,
+    "title": "Final Exam Prep",
+    "duration": "60 mins",
+    "summary": "Reviewing all concepts.",
+    "content": "Reviewing products, compliance, underwriting, and sales tactics. Prepare for the final certification.",
+    "tasks": ["Review all previous Quizzes", "Re-read 'Master Underwriting Guidelines'"]
+  },
+  {
+    "id": 29,
+    "week": 4,
+    "title": "Certification Exam",
+    "duration": "90 mins",
+    "summary": "The final barrier to entry.",
+    "content": "Complete the final assessment. You must score 85% or higher to receive your 'Certified Partner' badge and increased commission split.",
+    "tasks": ["Take Final Exam", "Submit 'Partner Feedback' form"]
+  },
+  {
+    "id": 30,
+    "week": 4,
+    "title": "Launch Trajectory",
+    "duration": "30 mins",
+    "summary": "The 90-day roadmap.",
+    "content": "Training is over. Production begins. We map out your revenue goals for Month 2 and Month 3. Welcome to the floor.",
+    "tasks": ["Set Month 2 Revenue Goal", "Schedule 'Strategy Session' with Manager", "Go make money"]
   }
 ]
