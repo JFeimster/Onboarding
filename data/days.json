@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "week": 1,
+    "title": "Orientation & Setup",
+    "duration": "45 mins",
+    "summary": "Setting up your digital office and understanding the Moonshine product suite.",
+    "content": "Welcome to Moonshine Capital. Today is about infrastructure. You cannot build a skyscraper on a swamp. We will set up your dedicated email, CRM access, and review the compliance handbook.",
+    "tasks": ["Sign Partner Agreement", "Setup Professional Email", "Join Discord Community", "Watch 'The Moonshine Way'"]
+  },
+  {
+    "id": 2,
+    "week": 1,
+    "title": "Product Knowledge: Term Loans",
+    "duration": "30 mins",
+    "summary": "Deep dive into our bread-and-butter product.",
+    "content": "Term loans are the foundation of business funding. Learn the qualifications, interest rate structures, and ideal borrower profile.",
+    "tasks": ["Read Term Sheet PDF", "Pass Quiz 1 (Self-Assessment)", "Mock Pitch: Record yourself"]
+  },
+  {
+    "id": 8,
+    "week": 2,
+    "title": "Lead Generation 101",
+    "duration": "1 hr",
+    "summary": "Identify your first 100 prospects.",
+    "content": "We don't wait for business; we hunt it. Today you will build your 'Top 100' list using the LinkedIn scraper method.",
+    "tasks": ["Setup LinkedIn Sales Nav", "Build 'Top 100' List", "Draft 3 Cold Outreach Emails"]
+  },
+  {
+    "id": 15,
+    "week": 3,
+    "title": "The Art of the Close",
+    "duration": "45 mins",
+    "summary": "Turning a 'Maybe' into a 'Funded'.",
+    "content": "Objection handling is where the money is made. We will cover the 4 most common objections: Rate, Term, Fees, and Timing.",
+    "tasks": ["Review Objection Script", "Roleplay with Peer", "Send 10 Follow-ups"]
+  },
+  {
+    "id": 22,
+    "week": 4,
+    "title": "Referral Partnerships",
+    "duration": "30 mins",
+    "summary": "Leveraging CPAs and Attorneys.",
+    "content": "Stop hunting one deal at a time. Partner with a CPA and get 10 deals a month.",
+    "tasks": ["Identify 5 Local CPAs", "Customize 'Partner Pitch' Deck", "Schedule 1 Lunch Meeting"]
+  }
+]
